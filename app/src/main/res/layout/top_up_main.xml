@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorWhite">
+
+    <ImageView
+        android:id="@+id/gambar"
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:src="@drawable/money"
+        android:layout_margin="20dp"
+        android:layout_toRightOf="@+id/txt1" />
+
+    <TextView
+        android:id="@+id/txt1"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="Your own e-Wallet Center"
+        android:textSize="30dp"
+        android:textColor="@color/colorBlue"
+        android:layout_margin="20dp"
+        android:fontFamily="sans-serif-condensed"/>
+
+    <TextView
+        android:id="@+id/txt2"
+        android:layout_width="230dp"
+        android:layout_height="wrap_content"
+        android:text="Manage your e-Wallet accounts in one place. You can top up and save your e-Wallte accounts for future transactions."
+        android:textSize="15dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginBottom="20dp"
+        android:layout_below="@+id/txt1" />
+
+    <TextView
+        android:id="@+id/txt3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="START TOP UP"
+        android:textSize="20dp"
+        android:layout_below="@+id/txt2"
+        android:layout_margin="20dp"
+        android:textColor="@color/colorPrimary" />
+</RelativeLayout>
