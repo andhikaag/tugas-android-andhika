@@ -28,4 +28,30 @@
         android:layout_below="@+id/line1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
+
+    <RelativeLayout
+        android:id="@+id/line2"
+        android:layout_below="@+id/set2"
+        android:layout_width="match_parent"
+        android:layout_height="10dp"/>
+    <RelativeLayout
+        android:id="@+id/line3"
+        android:layout_below="@+id/line2"
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:background="@color/colorBlue"/>
+
+    <include
+        android:id="@+id/set3"
+        layout="@layout/in_out_main"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/line3"/>
+
+    <include
+        android:id="@+id/set4"
+        layout="@layout/list_main"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/set3"/>
 </RelativeLayout>
